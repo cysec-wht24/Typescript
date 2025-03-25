@@ -20,8 +20,8 @@ let hero: string;
 
 function getHero(){
     return "thor"
-}
-
+} // should not use any, use compiler flag noImplicitAny 
+// to flag any implict any as an error 
 hero = getHero()
 
 
