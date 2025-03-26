@@ -13,6 +13,10 @@
 
 
 // function createCourse():{name: string, price: number}{
+// here createCourse() - function name
+// the () - is where the parameters are passed
+// {} - the first brackets is to declare the return type
+// {} - the second bracket is for function defination
 //     return {name: "reactjs", price: 399}
 // }
 
@@ -32,11 +36,11 @@
 
 
 type User = {
-    readonly _id: string
+    readonly _id: string // say this is used by mongoDB to store properly so you want no one to edit it
     name: string
     email: string
     isActive: boolean
-    credcardDetails?: number
+    credcardDetails?: number // this will make this detail optional requirement
 }
 
 let myUser: User = {
@@ -60,7 +64,7 @@ type cardDetails = cardNumber & cardDate & {
 
 
 myUser.email = "h@gmail.com"
-// myUser._id = "asa"
+// myUser._id = "asa" // in js file no error is shown only in ts file error is shown
 
 
 
