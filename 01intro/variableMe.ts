@@ -1,4 +1,5 @@
 let greetings: string = "Hello Hitesh";
+let gesture: string = "Respect";
 
 greetings.toLowerCase()
 console.log(greetings);
