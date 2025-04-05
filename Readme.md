@@ -1,5 +1,7 @@
 # Typescript series
 
+error.message handling : https://kentcdodds.com/blog/get-a-catch-block-error-message-with-typescript
+
 Code files for typescript series on youtube.
 click here to watch the series. [Click here](https://www.youtube.com/watch?v=j89BvWz8Eag&list=PLRAV69dS1uWRPSfKzwZsIm-Axxq-LxqhW)
 
